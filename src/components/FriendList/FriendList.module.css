@@ -1,0 +1,25 @@
+.friend-list-item {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.friend-card {
+    display: flex;
+    align-items: center;
+}
+
+.friend-card img {
+    margin-right: 10px;
+}
+
+.status {
+    margin-left: auto;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
