@@ -17,12 +17,10 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList friends={friends} />
 
-        <div>
-        <h2>Transaction History</h2>
-        <TransactionHistory items={transactions} />
-      </div>
+      <FriendList friends={friends} />
+      
+      <TransactionHistory items={transactions} />
     </>
 
   );
